@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+
+  <div class="flex bg-white rounded-3xl shadow-lg overflow-hidden w-[900px] max-w-full">
+
+    <!-- Left Form Section -->
+    <div class="w-1/2 bg-gradient-to-br from-yellow-100 to-white p-10 flex flex-col justify-center">
+      <div>
+        <h2 class="text-2xl font-semibold mb-2">Create an account</h2>
+        <p class="text-sm text-gray-500 mb-6">Sign up and get 30 day free trial</p>
+
+        <form class="space-y-4">
+          <div>
+            <input type="text" placeholder="Full name"
+              class="w-full px-4 py-3 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-yellow-400" />
+          </div>
+          <div>
+            <input type="email" placeholder="Email"
+              class="w-full px-4 py-3 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-yellow-400" />
+          </div>
+          <div>
+            <input type="password" placeholder="Password"
+              class="w-full px-4 py-3 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-yellow-400" />
+          </div>
+          <button type="submit"
+            class="w-full py-3 rounded-full bg-yellow-400 hover:bg-yellow-500 text-white font-semibold">
+            Submit
+          </button>
+        </form>
+
+        <div class="flex items-center justify-center mt-4 space-x-4">
+          <button class="flex items-center space-x-2 border px-4 py-2 rounded-full hover:bg-gray-100">
+            <!-- Apple icon placeholder -->
+            <span>Apple</span>
+          </button>
+          <button class="flex items-center space-x-2 border px-4 py-2 rounded-full hover:bg-gray-100">
+            <!-- Google icon placeholder -->
+            <span>Google</span>
+          </button>
+        </div>
+
+        <div class="text-sm text-center mt-6">
+          Have any account? <a href="#" class="underline text-gray-600">Sign in</a>
+        </div>
+
+        <div class="text-xs text-center mt-2">
+          <a href="#" class="underline text-gray-400">Terms & Conditions</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Image Section -->
+    <div class="w-1/2 relative bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1556740749-887f6717d7e4?ixlib=rb-4.0.3&auto=format&fit=crop&w=870&q=80');">
+      <div class="absolute inset-0 bg-black bg-opacity-30 flex flex-col justify-end p-6">
+        <!-- Schedule Card -->
+        <div class="bg-white bg-opacity-80 p-3 rounded-lg mb-4">
+          <h3 class="text-sm font-semibold">Daily Meeting</h3>
+          <p class="text-xs text-gray-600">12:00pm - 01:00pm</p>
+          <div class="flex mt-2 space-x-1">
+            <img src="https://randomuser.me/api/portraits/women/1.jpg" class="w-6 h-6 rounded-full border" alt="avatar" />
+            <img src="https://randomuser.me/api/portraits/men/2.jpg" class="w-6 h-6 rounded-full border" alt="avatar" />
+            <img src="https://randomuser.me/api/portraits/women/3.jpg" class="w-6 h-6 rounded-full border" alt="avatar" />
+          </div>
+        </div>
+
+        <!-- Calendar Row -->
+        <div class="flex justify-between text-white text-xs mt-2">
+          <span>Sun 22</span>
+          <span>Mon 23</span>
+          <span>Tue 24</span>
+          <span>Wed 25</span>
+          <span>Thu 26</span>
+          <span>Fri 27</span>
+          <span>Sat 28</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>

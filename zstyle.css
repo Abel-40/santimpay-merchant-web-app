@@ -1,0 +1,8 @@
+#invoice {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  font-family: Arial;
+  background: #fff;
+  color: #000;
+}
